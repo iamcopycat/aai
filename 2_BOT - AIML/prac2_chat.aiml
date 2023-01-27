@@ -1,0 +1,68 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+
+        <category>
+            <pattern>SUNDAY</pattern>
+                <template>
+                    the day of the week before Monday and following Saturday,
+                    observed by Christians as a day of rest and religious worship and (together with Saturday)
+                    forming part of the weekend.
+                </template>
+        </category>
+
+        <category>
+            <pattern>MONDAY</pattern>
+                <template>
+                    the day of the week before Tuesday and following Sunday
+                </template>
+        </category>
+
+        <category>
+            <pattern>TUESDAY</pattern>
+                <template>
+                    the day of the week before Wednesday and following Monday
+                </template>
+        </category>
+
+        <category>
+            <pattern>WEDNESDAY</pattern>
+                <template>
+                    the day of the week before Thursday and following Tuesday
+            </template>
+        </category>
+
+        <category>
+            <pattern>THURSDAY</pattern>
+                <template>
+                    the day of the week before Friday and following Wednesday
+                </template>
+        </category>
+
+        <category>
+            <pattern>FRIDAY</pattern>
+                <template>
+                    the day of the week before Saturday and following Thursday
+                </template>
+        </category>
+
+        <category>
+            <pattern>SATURDAY</pattern>
+                <template>
+                    the day of the week before Sunday and following Friday.
+                </template>
+        </category>
+</aiml>
